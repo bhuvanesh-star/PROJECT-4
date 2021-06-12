@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap module 1</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            
+            #bgimg{
+                position: relative;
+            }
+            
+            #texts{
+                position:absolute;
+                color:white;
+            }
+            #menu > a{
+               
+                text-decoration: none;
+            }
+            #menu > a:hover{
+                background-color:beige;
+                color:black;
+                padding:5px;
+            }
+            .msgikon{
+                max-height:50px;
+                max-width: 50px;
+            }
+
+
+            #myteam{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size:larger;
+                font-weight: 700;
+                font-style: oblique;
+            }
+            #specs > a{
+                color:white;
+                margin:50px;
+                border:1px solid white !important;
+            }
+           .grpimg{
+               max-height:200px;
+               max-width:200px;
+           }
+           
+            
+        </style>
+    </head>
+    <body class="body">
+        
+        <header>
+            <div class="container-fluid">
+                <div class="row" >
+                    <div class="col" id="bgimg">
+                        <img src="butterfly.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="text text-center my-5" id="texts">
+
+                        <div class="col">
+                            <h1>
+                                WELCOME TO MY WEBSITE
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.)
+                            </p>
+                        </div>
+                        <div class="col" id="menu">
+                                <a href="#"> MENU</a>
+                                <a href="#"> CONTACT US </a>
+                                <a href="#"> ABOUT US</a>
+                                <a href="#"> INFO </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col ">
+                    <h2 class="heading bg-dark bg-gradient text-start text-white-50 ">
+                        ABOUT US
+                    </h2>
+                    <p class="para bg-dark bg-gradient px-1 text-white-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h4>WHAT WE CAN</h4>
+                    <p>
+                        Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+
+                    </p>
+                </div>
+                <div class="col my-5">
+                    <div class="progress">
+                            <div class="progress-bar bg-danger bg-gradient" role="progressbar" style="width:98%"  aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                Enthusiasm
+                            </div>
+                    </div>
+                    <div class="progress mt-4 mb-4">
+                            <div class="progress-bar bg-danger bg-gradient" role="progressbar" style="width:82%"  aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                Time Management
+                            </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger bg-gradient" role="progressbar" style="width:90%"  aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                            Data Interpretation
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid bg-warning bg-gradient mt-5 p-5">
+                    <div class="row">
+                        <h4 class="h4 text-center p-3 ">
+                            Subscribe to My Newsletter.
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <input class="col-3 px-3" type="text" placeholder="Your Name">
+                        <input class="col-3 px-3" type="email" placeholder="Your Mail Id">
+                        <input class="col-3 px-3" type="number" placeholder="Your Mobile Number">
+                        <button class="col-3 px-3 bg-dark text-white-50">
+                            Subscirbe
+                        </button>
+                    </div>
+        </div>
+
+        <div class="container">
+                    <div class="row my-4" id="myteam">
+                        MY TEAM
+                    </div>
+                <div class="card-group">
+                            <div class="card px-3">
+                                <img src="unnamed.jpg" class="card-img-top rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">walmut zemo</h4>
+                                    <p class="card-text">CEO, Production Manager, Cheif stylist</p>
+                                    <a class="card-link"><img src="message-icon-4-256.png" class="msgikon"></a>
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                            <div class="card px-3">
+                                <img src="canon-pic.jpg" class="card-img-top rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Sheon-Yin-Zing</h4>
+                                    <p class="card-text">Model, Marketing Head, Cheif Accountant</p>
+                                    <a class="card-link text-center"> <img src="message-icon-4-256.png" class="msgikon"></a>
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                            <div class="card px-3">
+                                <img src="adam-fischer.jpg" class="card-img-top rounded-circle" alt="...">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Adam Fischer</h4>
+                                    <p class="card-text">Photographer, Cheif-Editor, Cinematographer</p>
+                                    <a class="card-link"><img src="message-icon-4-256.png" class="msgikon"> </a>
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                    </div>
+                </div>
+                <br> 
+                <div class="container-fluid ">
+                    <div class="row text-center">
+                        PORTFOLIO
+                    </div>
+                    <div class="row bg-light bg-gradient text-center ps-5 pe-5">
+                        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
+                        Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center text-decoratiopn-none d-inline text-white my-5" id="sepcs">
+                            <button type="button" class="btn btn-primary">All</button>
+                            <button type="button" class="btn btn-primary">Illustrations</button>
+                            <button type="button" class="btn btn-primary">photography</button>
+                            <button type="button" class="btn btn-primary">Portfolio</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row my-4" id="myteam">
+                        MY TEAM
+                    </div>
+                    <div class="row ">
+                        <div class="card-group">
+                            <div class="card px-3">
+                                <img src="forest.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay text- text-white">
+                                    <h4 class="card-title">walmut zemo</h4>
+                                    <p class="card-text">CEO, Production Manager, Cheif stylist</p>
+                                    
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                            <div class="card px-3">
+                                <img src="tropical.jpg" class="card-img-top " alt="...">
+                                <div class="card-img-overlay text-start text-white">
+                                    <h4 class="card-title">Sheon-Yin-Zing</h4>
+                                    <p class="card-text">Model, Marketing Head, Cheif Accountant</p>
+                                    
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                            <div class="card px-3">
+                                <img src="night-bg.jpg" class="card-img-top" alt="...">
+                                <div class="card-img-overlay text-start text-white">
+                                    <h4 class="card-title">Adam Fischer</h4>
+                                    <p class="card-text">Photographer, Cheif-Editor, Cinematographer</p>
+                                    
+                                </div>
+                                <div class="card-footer text-center">footer</div>
+                            </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card px-3">
+                            <img src="beachview.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay text- text-white">
+                                <h4 class="card-title">walmut zemo</h4>
+                                <p class="card-text">CEO, Production Manager, Cheif stylist</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                        <div class="card px-3">
+                            <img src="island.jpg" class="card-img-top " alt="...">
+                            <div class="card-img-overlay text-start text-white">
+                                <h4 class="card-title">Sheon-Yin-Zing</h4>
+                                <p class="card-text">Model, Marketing Head, Cheif Accountant</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                        <div class="card px-3">
+                            <img src="redtree.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay text-start text-white">
+                                <h4 class="card-title">Adam Fischer</h4>
+                                <p class="card-text">Photographer, Cheif-Editor, Cinematographer</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card px-3">
+                            <img src="prism.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay text- text-white">
+                                <h4 class="card-title">walmut zemo</h4>
+                                <p class="card-text">CEO, Production Manager, Cheif stylist</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                        <div class="card px-3">
+                            <img src="lost.jpg" class="card-img-top " alt="...">
+                            <div class="card-img-overlay text-start text-white">
+                                <h4 class="card-title">Sheon-Yin-Zing</h4>
+                                <p class="card-text">Model, Marketing Head, Cheif Accountant</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                        <div class="card px-3">
+                            <img src="tron.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay text-start text-white">
+                                <h4 class="card-title">Adam Fischer</h4>
+                                <p class="card-text">Photographer, Cheif-Editor, Cinematographer</p>
+                                
+                            </div>
+                            <div class="card-footer text-center">footer</div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        <div class="container-fluid">
+            <div class="card " id="foot" >
+                <img src="big-city.jpg">
+                <div class=" card-img-overlay text-center text-white-50">
+                    <h5>vgdy3ev</h5>
+                    <p>Duis leo. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                    </p>
+                    <input type="text" placeholder="YOUR NAME">
+                    <input type="email" placeholder="YOUR MAIL">
+                    <input type="number" placeholder="YOUR NUMBER ">
+                    <buuton class="btn btn-light"> SUBSRCIBE</buuton>
+
+                    <div class="card-footer text-center">Copyrights,2021</div>
+                </div>
+                
+            </div>
+    
+        </div>
+            
+        
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
